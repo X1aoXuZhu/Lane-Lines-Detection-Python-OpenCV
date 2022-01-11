@@ -74,7 +74,6 @@ image, mtx, dist_coefficients = cal_undistort(image, objpoints, imgpoints)
 
 ## Gradient Thresholds
 
-
 ```python
 def abs_sobel_thresh(image, orient='x', sobel_kernel=3, thresh=(0, 255)):
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
